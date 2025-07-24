@@ -1,0 +1,363 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-left">
+          <a href="index.html">
+        <img src="assets/images/logo.png" alt="Brand" class="brand-logo"></a><div class="logo">Brand</div> 
+        </div>
+
+
+        <div class="header-right">
+            <a href="#"><img src="assets/images/user.png" alt="Profile" class="icon"><span>Profile</span></a>
+            <a href="#"><img src="assets/images/msg.png" alt="Message" class="icon"><span>Message</span></a>
+            <a href="#"><img src="assets/images/order.png" alt="Orders" class="icon"><span>Orders</span></a>
+            <a href="cart.html"  class="cart-link"><div class="main-cart-icon" style="position: relative;">
+              <img src="assets/images/cart.png" alt="My Cart" class="icon">
+              <span id="cartCount" class="cart-count-badge">2</span>
+              </div>
+               <span>My Cart</span>
+            </a>
+        </div>
+    </header>
+
+    
+
+<div class="main-content">
+
+<section class="cart-page">
+  <!--Cart Heading -->
+  <h2 class="cart-heading">My Cart (2 items)</h2>
+
+  <div class="cart-container">
+    <!--LEFT BOX: Cart Items -->
+    <div class="cart-left" >
+        <div id="cartItemsContainer">
+      <!-- Cart Item -->
+      <div class="cart-item" >
+  
+        <div class="cart-item-left" >
+          <img src="assets/cloth/shirt.png" alt="Product" class="cart-img">
+
+          <div class="cart-details">
+            <div class="product-name">Men's Cotton T-Shirt</div>
+            <div class="product-features">
+              <span>Color: Blue,</span>
+              <span>Size: M,</span>
+              <span>Material: Cotton</span>
+            </div>
+            <div class="seller-name">Sold by: Guanjoi Trading LLC</div>
+
+            <div class="item-actions">
+              <button class="btn remove-btn">Remove</button>
+              <button class="btn save-btn">Save for later</button>
+            </div>
+          </div>
+        </div>
+ 
+      <div class="cart-item-right">
+      <div class="item-price">$98.00</div>
+      <div class="qty-pill">
+      <span class="label">Qty:</span>
+      <select>
+      <option selected>1</option>
+      <option>2</option>
+      <option >3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      </select>
+      </div>
+      </div>
+      </div>
+
+      <hr class="line">
+
+<div class="cart-item">
+        <!-- Product Info Section -->
+        <div class="cart-item-left">
+          <img src="assets/Tech/galaxy.png" alt="Product" class="cart-img">
+
+          <div class="cart-details">
+            <div class="product-name">Samsung Galaxy S23 Ultra</div>
+            <div class="product-features">
+              <span>Color: Black,</span>
+              <span>Size: 6.8inches,</span>
+              <span>Material: Gorilla Glass Victous 2</span>
+            </div>
+            <div class="seller-name">Sold by: Guanjoi Trading LLC</div>
+
+            <div class="item-actions">
+              <button class="btn remove-btn">Remove</button>
+              <button class="btn save-btn">Save for later</button>
+            </div>
+          </div>
+        </div>
+
+      <div class="cart-item-right">
+      <div class="item-price">$98.00</div>
+      <div class="qty-pill">
+      <span class="label">Qty:</span>
+      <select>
+      <option selected>1</option>
+      <option>2</option>
+      <option >3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      </select>
+      </div>
+      </div>
+      </div>
+
+      <hr class="line">
+
+      <!-- Bottom Buttons -->
+      <div class="cart-footer">
+        <button class="btn back-btn">
+         <img src="assets/images/back.png" alt="Back Icon" class="icon-arrow"> Back to Shop
+        </button>
+        <button class="btn remove-all-btn">Remove All</button>
+      </div>
+    </div>
+</div>
+ 
+
+
+<!-- RIGHT: Cart Summary-->
+<div class="cart-summary">
+
+  <!--  Coupon Box -->
+  <div class="coupon-box">
+    <p class="coupon-title">Have a coupon?</p>
+    <div class="coupon-input-group">
+      <input type="text" placeholder="Add coupon" />
+      <button class="apply-btn">Apply</button>
+    </div>
+  </div>
+
+  <!-- Price Summary -->
+  <div class="price-summary-box">
+    <div class="summary-line"><span>Subtotal:</span><span>$1403.97</span></div>
+    <div class="summary-line discount"><span>Discount:</span><span>− $60.00</span></div>
+    <div class="summary-line tax"><span>Tax:</span><span>+ $14.00</span></div>
+
+    <hr class="summary-divider" />
+
+    <div class="summary-total">
+      <span>Total:</span><span class="total-amount">$1357.97</span>
+    </div>
+
+    <button class="checkout-btn">Checkout</button>
+
+    <div class="payment-icons">
+      <img src="assets/payments/AMEX.png" alt="Amazon Pay">
+      <img src="assets/payments/Mastercard.webp" alt="MasterCard">
+      <img src="assets/payments/VISA.png" alt="Visa">
+      <img src="assets/payments/PayPal.png" alt="PayPal">
+      <img src="assets/payments/ApplePay.png" alt="Apple Pay">
+    </div>
+  </div>
+
+</div>
+
+
+</section>
+
+<!-- Info Icons -->
+<div class="info-row">
+  <div class="info-item">
+    <img src="assets/images/lock.png" alt="Secure Payment" class="gray-icon" />
+    <div class="info-text">
+      <strong>Secure payment</strong>
+      <p>Have you ever finally just</p>
+    </div>
+  </div>
+
+  <div class="info-item">
+    <img src="assets/images/msg.png" alt="Customer Support" class="support-icon" />
+    <div class="info-text">
+      <strong>Customer support</strong>
+      <p>Have you ever finally just</p>
+    </div>
+  </div>
+
+  <div class="info-item">
+    <img src="assets/images/delivery.png" alt="Free Delivery" class="gray-icon" />
+    <div class="info-text">
+      <strong>Free delivery</strong>
+      <p>Have you ever finally just</p>
+    </div>
+  </div>
+</div>
+
+<div class="saved-later-box">
+  <h3>Saved for later</h3>
+  <div class="saved-grid">
+
+    <div class="saved-card">
+      <div class="saved-img">
+        <img src="assets/Tech/pad2.png" alt="Product">
+      </div>
+      <div class="saved-price">$300</div>
+      <div class="saved-name">Samsung Galaxy Z-Dual Slide</div>
+      <button class="move-cart-btn"><img src="assets/images/shop2.png" class="cart-icon"> Move to cart</button>
+    </div>
+
+    <div class="saved-card">
+      <div class="saved-img">
+        <img src="assets/Tech/Samsung.png" alt="Product">
+      </div>
+      <div class="saved-price">$99.50</div>
+      <div class="saved-name">Samsung 11</div>
+      <button class="move-cart-btn"><img src="assets/images/shop2.png" class="cart-icon"> Move to cart</button>
+    </div>
+
+    <div class="saved-card">
+      <div class="saved-img">
+        <img src="assets/Tech/watch.png" alt="Product">
+      </div>
+      <div class="saved-price">$89.50</div>
+      <div class="saved-name">Smart Watch – Smarter Living on Your Wrist</div>
+      <button class="move-cart-btn"><img src="assets/images/shop2.png" class="cart-icon"> Move to cart</button>
+    </div>
+
+    <div class="saved-card">
+      <div class="saved-img">
+        <img src="assets/Tech/laptop.png" alt="Product">
+      </div>
+      <div class="saved-price">$1100</div>
+      <div class="saved-name">Lenovo Laptop – Performance You Can Count On</div>
+      <button class="move-cart-btn"><img src="assets/images/shop2.png" class="cart-icon"> Move to cart</button>
+    </div>
+
+  </div>
+</div>
+
+<section class="cta-stripe-split">
+  <div class="cta-left">
+    <h2>Super discount on more than 100 USD</h2>
+    <p>Have you ever finally just stopped and realized the deal was too good to miss?</p>
+  </div>
+  <div class="cta-right">
+    <a href="products.html"><button class="shop-btn">Shop Now</button></a>
+  </div>
+</section>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer-row">
+
+    <!-- 1. Brand Info -->
+    <div class="footer-col get-app">
+      
+         <div class="brand-row">
+    <img src="assets/images/logo.png" alt="Brand" class="br-logo">
+    <div class="name">Brand</div> 
+  </div>
+
+      <p>Best information about <br> the company goes here,<br> but now lorem ipsum is.</p>
+      <div class="footer-icons">
+      <a href="https://facebook.com" target="_blank"><img src="assets/images/facebook.png" alt="FB"></a>
+      <a href="https://twitter.com" target="_blank"><img src="assets/images/twitter.png" alt="Twitter"></a>
+      <a href="https://linkedin.com" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://instagram.com" target="_blank"><img src="assets/images/instagram.png" alt="Instagram"></a>
+      <a href="https://youtube.com" target="_blank"><img src="assets/images/youtube.png" alt="YouTube"></a>
+      </div>
+    </div>
+
+    <!-- 2. About -->
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li>About Us</li>
+        <li>Find Store</li>
+        <li>Categories</li>
+        <li>Blogs</li>
+      </ul>
+    </div>
+
+    <!-- 3. Partnership -->
+    <div class="footer-col">
+      <h4>Partnership</h4>
+      <ul>
+        <li>Become Partner</li>
+        <li>Advertise</li>
+        <li>Collab Program</li>
+        <li>Affiliates</li>
+      </ul>
+    </div>
+
+    <!-- 4. Information -->
+    <div class="footer-col">
+      <h4>Information</h4>
+      <ul>
+        <li>Help Center</li>
+        <li>Money Refund</li>
+        <li>Shipping</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+
+    <!-- 5. For Users -->
+    <div class="footer-col">
+      <h4>For Users</h4>
+      <ul>
+        <li>Login</li>
+        <li>Register</li>
+        <li>Settings</li>
+        <li>My Orders</li>
+      </ul>
+    </div>
+
+    <!-- 6. Get App -->
+    <div class="footer-col">
+      <h4>Get App</h4>
+      <img src="assets/images/app.png" alt="App Store" class="app-btn">
+      <img src="assets/images/google.webp" alt="Google Play" class="app-btn">
+    </div>
+
+  </div>
+  </footer>
+
+  <div class="footer-bottom-strip">
+  <div class="footer-left">
+    © 2025 Ecommerce.
+  </div>
+ 
+  
+<div class="footer-right">
+   <img src="assets/Flags/us.png" class="flag-icon" alt="US Flag">
+  <div class="language-footer-dropdown">
+    <div class="footer-lang-btn" data-toggle>
+      <span>English</span>
+      <img src="assets/images/dropup.png" class="dropup-icon" alt="drop-up">
+    </div>
+    <div class="footer-lang-menu">
+      <div class="footer-lang-item"><img src="assets/Flags/us.png" class="flag-icon" alt=""> English</div>
+      <div class="footer-lang-item"><img src="assets/Flags/france.png" class="flag-icon" alt=""> French</div>
+      <div class="footer-lang-item"><img src="assets/Flags/germany.png" class="flag-icon" alt=""> German </div>
+      <div class="footer-lang-item"><img src="assets/Flags/pakistan.png" class="flag-icon" alt=""> Urdu</div>
+      <div class="footer-lang-item"><img src="assets/Flags/india.png" class="flag-icon" alt=""> Hindi</div>
+    </div>
+  </div>
+</div>
+ </div>
+
+<script src="script.js"></script>
+</body>
+</html>
